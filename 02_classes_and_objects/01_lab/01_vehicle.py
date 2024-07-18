@@ -2,7 +2,7 @@ from typing import List
 
 
 class Vehicle:
-    def __init__(self, mileage: int, max_speed: int = 150):
+    def __init__(self, mileage: int, max_speed: int = 150) -> None:
         self.mileage = mileage
         self.max_speed = max_speed
         self.gadgets: List[str] = []
