@@ -3,6 +3,7 @@
 
 
 
+
 class Topping:
     def __init__(self, topping_type: str, weight: float) -> None:
         self.topping_type = topping_type
