@@ -1,17 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 from unittest import TestCase, main
 
 from worker import Worker
